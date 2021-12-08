@@ -1,0 +1,35 @@
+body {
+    padding-bottom: 0px;
+}
+
+.bg:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    background: rgb(49 44 44 / 55%);
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.global-wrapper {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.global-box {
+    width: 485px;
+}
+
+.global-text {
+    font-weight: 400;
+    text-align: center;
+    line-height: 24px;
+    font-size: 18px;
+}

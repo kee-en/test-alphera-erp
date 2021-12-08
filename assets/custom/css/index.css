@@ -1,0 +1,20 @@
+body {
+    background: #fff;
+    padding-bottom: 0px;
+}
+.global-wrapper {
+    min-height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.global-box {
+    width: 485px;
+}
+.global-text {
+    font-weight: 400;
+    text-align: center;
+    line-height: 24px;
+    font-size: 18px;
+}

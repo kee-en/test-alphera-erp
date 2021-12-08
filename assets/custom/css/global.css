@@ -1,0 +1,118 @@
+#applicant_img {
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+}
+
+#image-tag {
+    margin: 0 auto;
+    width: 100%;
+    height: 250px;
+    margin-bottom: 10px;
+}
+
+/* #my_camera {
+    margin: 0 auto;
+    width: 300px !important;
+    height: 300px !important;
+} */
+
+.count-pagination {
+    text-align: right;
+}
+
+.search-display {
+    background: #efefef;
+}
+
+.filter-result span {
+    color: #000;
+    border: 1px solid #000;
+    background: transparent;
+    border-radius: 4px;
+    padding: 5px 12px;
+    display: inline-block;
+    line-height: 1;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 1024px) {
+
+    #div_applicant {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 786px) {
+
+    #div_applicant {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    #lbl-title {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    #btn-collection {
+        margin-top: 10px;
+    }
+
+    .btn-grp-collection {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 426px) {
+
+    #applicant_data {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+        margin-bottom: 10px;
+    }
+
+    .media-body {
+        text-align: center;
+    }
+
+    #btnReset {
+        display: block;
+        width: 100%;
+    }
+
+    #applicant_img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 486px) {
+
+    #navigation-align {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .pagination {
+        -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+        justify-content: center !important;
+    }
+
+    .count-pagination {
+        text-align: center;
+    }
+}
